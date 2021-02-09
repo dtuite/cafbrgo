@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cafbrgo
+  description: cafbrgo
+  annotations: 
+    github.com/project-slug: carlosandrefernandes/cafbrgo
+    backstage.io/source-ref: "https://github.com/carlosandrefernandes/cafbrgo"
+    backstage.io/techdocs-ref: url:https://github.com/carlosandrefernandes/cafbrgo
+    backstage.io/github-actions-id: https://github.com/carlosandrefernandes/cafbrgo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: carlosandrefernandes
